@@ -1,0 +1,27 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm install *)",
+      "PowerShell(npm install 2>&1)",
+      "PowerShell($paths = @\\(\"$env:ProgramFiles\\\\nodejs\\\\npm.cmd\",\"${env:ProgramFiles\\(x86\\)}\\\\nodejs\\\\npm.cmd\",\"$env:APPDATA\\\\npm\\\\npm.cmd\",\"$env:LOCALAPPDATA\\\\Programs\\\\nodejs\\\\npm.cmd\"\\); foreach\\($p in $paths\\){ if\\(Test-Path $p\\){ \"FOUND: $p\" } }; try { \\(Get-Command node -ErrorAction Stop\\).Source } catch { \"node not on PATH\" }; where.exe node 2>$null; where.exe npm 2>$null)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; node -v; npm -v)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm install 2>&1 | Select-Object -Last 25)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm approve-scripts --allow-scripts-pending 2>&1 | Select-Object -Last 10; echo \"---approve done---\"; npm rebuild esbuild 2>&1 | Select-Object -Last 10)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm approve-scripts esbuild 2>&1 | Select-Object -Last 10)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm run build 2>&1 | Select-Object -Last 30)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm run build 2>&1 | Select-String -Pattern \"built in|error|Error|dist/assets\" | Select-Object -First 20)",
+      "PowerShell(Get-Content \"C:\\\\Users\\\\Akash Anand\\\\Desktop\\\\Portfolio\\\\supabase\\\\schema.sql\" -Raw | Set-Clipboard; \"SQL copied to clipboard. Length: $\\(\\(Get-Content 'C:\\\\Users\\\\Akash Anand\\\\Desktop\\\\Portfolio\\\\supabase\\\\schema.sql' -Raw\\).Length\\) chars\")",
+      "PowerShell(Set-Clipboard)",
+      "PowerShell(\"Copied again. Ready to paste.\")",
+      "Bash(node -e \"console.log\\(require\\('crypto'\\).randomBytes\\(48\\).toString\\('base64'\\)\\)\")",
+      "Bash(openssl rand *)",
+      "PowerShell(\"Copied admin-api function code to clipboard.\")",
+      "PowerShell(\"Copied again - ready to paste.\")",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm install lucide-react lenis 2>&1 | Select-Object -Last 15)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm run build 2>&1 | Select-Object -Last 40)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm run build 2>&1 | Select-Object -Last 20)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm uninstall lenis 2>&1 | Select-Object -Last 10)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm run build 2>&1 | Select-Object -Last 15)"
+    ]
+  }
+}
