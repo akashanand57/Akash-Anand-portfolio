@@ -21,7 +21,16 @@
       "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm run build 2>&1 | Select-Object -Last 40)",
       "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm run build 2>&1 | Select-Object -Last 20)",
       "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm uninstall lenis 2>&1 | Select-Object -Last 10)",
-      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm run build 2>&1 | Select-Object -Last 15)"
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; npm run build 2>&1 | Select-Object -Last 15)",
+      "Bash(mkdir -p \"/c/Users/AKASHA~1/AppData/Local/Temp/claude/C--Users-Akash-Anand-Desktop-Portfolio/f028aaa4-73e8-4d8c-8e1b-0e3e34e0156b/scratchpad/pdf-fix\" && ls \"/c/Users/AKASHA~1/AppData/Local/Temp/claude/C--Users-Akash-Anand-Desktop-Portfolio/f028aaa4-73e8-4d8c-8e1b-0e3e34e0156b/scratchpad\")",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; cd \"C:\\\\Users\\\\AKASHA~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Akash-Anand-Desktop-Portfolio\\\\f028aaa4-73e8-4d8c-8e1b-0e3e34e0156b\\\\scratchpad\\\\pdf-fix\"; npm init -y 2>&1 | Select-Object -Last 5; npm install pdf-lib 2>&1 | Select-Object -Last 15)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; node \"C:\\\\Users\\\\AKASHA~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Akash-Anand-Desktop-Portfolio\\\\f028aaa4-73e8-4d8c-8e1b-0e3e34e0156b\\\\scratchpad\\\\pdf-fix\\\\inspect.mjs\")",
+      "Bash(cp \"/c/Users/Akash Anand/Desktop/Resume_Akash.pdf\" \"/c/Users/Akash Anand/Desktop/Resume_Akash.backup.pdf\" && ls -la \"/c/Users/Akash Anand/Desktop/\" | grep -i resume)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; node \"C:\\\\Users\\\\AKASHA~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Akash-Anand-Desktop-Portfolio\\\\f028aaa4-73e8-4d8c-8e1b-0e3e34e0156b\\\\scratchpad\\\\pdf-fix\\\\fix-link.mjs\")",
+      "Bash(rm -rf \"/c/Users/AKASHA~1/AppData/Local/Temp/claude/C--Users-Akash-Anand-Desktop-Portfolio/f028aaa4-73e8-4d8c-8e1b-0e3e34e0156b/scratchpad/pdf-fix\")",
+      "Bash(mkdir -p \"/c/Users/AKASHA~1/AppData/Local/Temp/claude/C--Users-Akash-Anand-Desktop-Portfolio/f028aaa4-73e8-4d8c-8e1b-0e3e34e0156b/scratchpad/pdf-fix\")",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; cd \"C:\\\\Users\\\\AKASHA~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Akash-Anand-Desktop-Portfolio\\\\f028aaa4-73e8-4d8c-8e1b-0e3e34e0156b\\\\scratchpad\\\\pdf-fix\"; npm init -y 2>&1 | Select-Object -Last 3; npm install pdf-lib 2>&1 | Select-Object -Last 10)",
+      "PowerShell($env:Path = \"C:\\\\Program Files\\\\nodejs;$env:Path\"; node \"C:\\\\Users\\\\AKASHA~1\\\\AppData\\\\Local\\\\Temp\\\\claude\\\\C--Users-Akash-Anand-Desktop-Portfolio\\\\f028aaa4-73e8-4d8c-8e1b-0e3e34e0156b\\\\scratchpad\\\\pdf-fix\\\\fix-email.mjs\")"
     ]
   }
 }
